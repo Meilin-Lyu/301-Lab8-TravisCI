@@ -44,6 +44,7 @@ before_script:
   - emulator -avd test -no-window &
   - android-wait-for-emulator
   - abd shell input keyevent 82 &
+  #add comments
 #script:
 #  - ./gradlew clean build
 #  - ./gradlew test
