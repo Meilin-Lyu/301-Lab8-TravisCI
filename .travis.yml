@@ -36,7 +36,7 @@ android:
 before_install:
 - chmod +x gradlew
 - yes|sdkmanager "platform;android-$ANDROID_EMU_API_LEVEL"
-- yes|sdkmanager "platform;android-$ANDROID_API_LEVEL"
+#- yes|sdkmanager "platform;android-$ANDROID_API_LEVEL"
 
 before_script:
 
